@@ -6,7 +6,8 @@ import HeaderPage from '@/components/HeaderPage.vue';
 
 <template> 
   <HeaderPage />
-  <ul>
+  <router-view />
+  <!-- <ul>
     <li>hogehoge</li>
     <li>hogehoge</li>
     <li>hogehoge</li>
@@ -107,7 +108,7 @@ import HeaderPage from '@/components/HeaderPage.vue';
     <li>hogehoge</li>
     <li>hogehoge</li>
     <li>hogehoge</li>
-  </ul>
+  </ul> -->
 </template>
 
 

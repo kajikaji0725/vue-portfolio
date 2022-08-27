@@ -4,8 +4,28 @@ import HomeView from '../views/HomeView.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
+    name: 'top',
+    component: () => import('@/page/TopPage.vue')
+  },
+  {
+    path: '/home',
     name: 'home',
-    component: () => import('@/components/SamplePage.vue')
+    component: () => import('@/page/HomePage.vue')
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('@/page/AboutPage.vue')
+  },
+  {
+    path: '/history',
+    name: 'history',
+    component: () => import('@/page/HistoryPage.vue')
+  },
+  {
+    path: '/products',
+    name: 'products',
+    component: () => import('@/page/ProductsPage.vue')
   }
   // {
   //   path: '/about',
