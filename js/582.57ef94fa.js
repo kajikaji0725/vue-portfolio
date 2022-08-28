@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_portfolio"]=self["webpackChunkvue_portfolio"]||[]).push([[582],{9582:function(r,e,n){n.r(e),n.d(e,{default:function(){return a}});var u=n(3396);function t(r,e){return(0,u.wg)(),(0,u.iD)("h1",null,"HistoryPage")}var o=n(89);const f={},i=(0,o.Z)(f,[["render",t]]);var a=i}}]);
+//# sourceMappingURL=582.57ef94fa.js.map
